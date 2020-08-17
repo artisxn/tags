@@ -1,5 +1,5 @@
 {
-    "name": "spatie/laravel-tags",
+    "name": "codicastudio/laravel-tags",
     "description": "A noobs worthless garbage, just learning.",
     "keywords": [
         "worthless garabage by a noob."
@@ -26,17 +26,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Tags\\": "src"
+            "codicastudio\\Tags\\": "src"
         }
     },
 
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Tags\\Test\\": "tests"
+            "codicastudio\\Tags\\Test\\": "tests"
         }
     },
     "scripts": {
-        "test": "vendor/bin/phpunit"
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
     },
     "config": {
         "sort-packages": true
@@ -44,7 +45,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Tags\\TagsServiceProvider"
+                "codicastudio\\Tags\\TagsServiceProvider"
             ]
         }
     },

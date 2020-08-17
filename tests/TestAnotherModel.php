@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Tags\Test;
+namespace codicastudio\Tags\Test;
 
 use Illuminate\Database\Eloquent\Model;
-use Spatie\Tags\HasTags;
+use codicastudio\Tags\HasTags;
 
 class TestAnotherModel extends Model
 {

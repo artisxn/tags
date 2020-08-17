@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Tags;
+namespace codicastudio\Tags;
 
 use Illuminate\Database\Eloquent\Model;
 

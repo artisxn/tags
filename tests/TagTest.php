@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Translatable\Test;
+namespace codicastudio\Translatable\Test;
 
-use Spatie\Tags\Tag;
-use Spatie\Tags\Test\TestCase;
+use codicastudio\Tags\Tag;
+use codicastudio\Tags\Test\TestCase;
 
 class TagTest extends TestCase
 {

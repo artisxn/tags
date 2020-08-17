@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\Tags;
+namespace codicastudio\Tags;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection as DbCollection;
 use Illuminate\Database\Eloquent\Model;
-use Spatie\EloquentSortable\Sortable;
-use Spatie\EloquentSortable\SortableTrait;
-use Spatie\Translatable\HasTranslations;
+use codicastudio\EloquentSortable\Sortable;
+use codicastudio\EloquentSortable\SortableTrait;
+use codicastudio\Translatable\HasTranslations;
 
 class Tag extends Model implements Sortable
 {
@@ -38,7 +38,7 @@ class Tag extends Model implements Sortable
      * @param string|null $type
      * @param string|null $locale
      *
-     * @return \Spatie\Tags\Tag|static
+     * @return \codicastudio\Tags\Tag|static
      */
     public static function findOrCreate($values, string $type = null, string $locale = null)
     {

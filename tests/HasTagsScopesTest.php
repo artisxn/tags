@@ -1,14 +1,14 @@
 <?php
 
-namespace Spatie\Translatable\Test;
+namespace codicastudio\Translatable\Test;
 
-use Spatie\Tags\Tag;
-use Spatie\Tags\Test\TestCase;
-use Spatie\Tags\Test\TestModel;
+use codicastudio\Tags\Tag;
+use codicastudio\Tags\Test\TestCase;
+use codicastudio\Tags\Test\TestModel;
 
 class HasTagsScopesTest extends TestCase
 {
-    /** @var \Spatie\Tags\Test\TestModel */
+    /** @var \codicastudio\Tags\Test\TestModel */
     protected $testModel;
 
     public function setUp(): void

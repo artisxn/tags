@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\Tags\Test;
+namespace codicastudio\Tags\Test;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\Tags\TagsServiceProvider;
+use codicastudio\Tags\TagsServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

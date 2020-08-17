@@ -1,16 +1,16 @@
 <?php
 
-namespace Spatie\Translatable\Test;
+namespace codicastudio\Translatable\Test;
 
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
-use Spatie\Tags\Tag;
-use Spatie\Tags\Test\TestAnotherModel;
-use Spatie\Tags\Test\TestCase;
-use Spatie\Tags\Test\TestModel;
+use codicastudio\Tags\Tag;
+use codicastudio\Tags\Test\TestAnotherModel;
+use codicastudio\Tags\Test\TestCase;
+use codicastudio\Tags\Test\TestModel;
 
 class HasTagsTest extends TestCase
 {
-    /** @var \Spatie\Tags\Test\TestModel */
+    /** @var \codicastudio\Tags\Test\TestModel */
     protected $testModel;
 
     public function setUp(): void
